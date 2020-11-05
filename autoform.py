@@ -4,7 +4,7 @@ import random
 today = date.today()
 data = "" #Text you have to fill in the form. You can also read a file and fill its content in a google form.
 num=random.randint(5,10)
-url="https://docs.google.com/forms/d/e/1FAIpQLSdNN3reQre0R6BL4CchFjm20SmujvXPDN15M_rBPwhe1ZkUhw/formResponse"
+url="https://docs.google.com/forms/d/e/XXXXXXXXXXXXXXXXX/formResponse"
  #URL to the form you want to fill. FormResponse should be used instead of ViewForm
 urlout="https://docs.google.com/forms/d/e/1FAIpQLSdNN3reQre0R6BL4CchFjm20SmujvXPDN15M_rBPwhe1ZkUhw/viewform?"
 text_entry_field={'entry.1489767559':num,'emailAddress':"",'entry.271596398_year':today.year,'entry.271596398_month':today.month,'entry.271596398_day':today.day,'entry.868228904':"",'entry.1867348459':"",'entry.1405267709':""} #Specify the Field Name here
